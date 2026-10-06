@@ -37,7 +37,7 @@ hl.window_rule({
 hl.window_rule({
 	workspace = 3,
 	match = {
-		class = "zen-browser",
+		class = "zen",
 	},
 })
 
