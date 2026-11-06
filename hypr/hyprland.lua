@@ -60,3 +60,6 @@ hl.config({
 		disable_hyprland_logo = false,
 	},
 })
+
+-- For Noctalia Color templates
+require("noctalia").apply_theme()

@@ -1,9 +1,9 @@
 -- WORKSPACE RULES
-hl.workspace_rule({ workspace = "1", monitor = "DP-3" })
-hl.workspace_rule({ workspace = "2", monitor = "DP-2" })
-hl.workspace_rule({ workspace = "3", monitor = "DP-2" })
-hl.workspace_rule({ workspace = "4", monitor = "DP-3" })
-hl.workspace_rule({ workspace = "5", monitor = "DP-2" })
+hl.workspace_rule({ workspace = "1", monitor = "DP-3", persistent = true, default_name = "Terminals" })
+hl.workspace_rule({ workspace = "2", monitor = "DP-2", persistent = true, default_name = "Code" })
+hl.workspace_rule({ workspace = "3", monitor = "DP-2", persistent = true, default_name = "Web" })
+hl.workspace_rule({ workspace = "4", monitor = "DP-3", persistent = true, default_name = "Communicators" })
+hl.workspace_rule({ workspace = "5", monitor = "DP-2", persistent = true, default_name = "Gaming" })
 
 -- WINDOW RULES
 hl.window_rule({

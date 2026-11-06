@@ -5,3 +5,6 @@
 !.gitignore
 !kitty/
 !wofi/
+!noctalia
+!README.md
+!install.sh
